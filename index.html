@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Love Letter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Coming+Soon&family=Love+Light&family=Lovers+Quarrel&family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#EDBAFF',
+            dark: '#5A0F73',
+            soft: '#F8DDFF'
+          },
+          fontFamily: {
+            loved: ['"Loved by the King"', 'cursive'],
+            soon: ['"Coming Soon"', 'sans-serif'],
+            light: ['"Love Light"', 'cursive'],
+            quarrel: ['"Lovers Quarrel"', 'cursive'],
+            comfort: ['Comfortaa', 'sans-serif'],
+          },
+          animation: {
+            float: 'float 3s ease-in-out infinite'
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-15px)' }
+            }
+          }
+        }
+      }
+    }
+
+
+  </script>
+  <style>
+    html {
+  scroll-behavior: smooth;
+}
+
+  </style>
+</head>
+
+<body class="bg-soft scroll-smooth min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="bg-primary px-10 py-4 flex justify-between items-center">
+    <h1 class="font-light text-dark text-3xl pl-4 italic">
+      Love Letter
+    </h1>
+
+    <div class="font-comfort text-dark text-xl tracking-widest">
+      ♡ — ♡ — ♡ — ♡ — ♡
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between px-12  py-20">
+
+    <!-- Text -->
+    <div class="max-w-xl pl-4">
+      <h2 class="font-light text-dark text-7xl mb-6">
+        Surat Cinta Untukmu
+      </h2>
+      <a href="#next">
+      <button 
+        class="font-soon bg-dark/35 text-soft px-8 py-3 rounded-full
+               transition-transform duration-300
+               hover:scale-105 hover:bg-dark/45">
+        click for scroll 
+      </button>
+      </a>
+    </div>
+
+    <!-- Image -->
+    <div class="mt-12 md:mt-0 pr-24">
+      <img
+        src="imgs/suratbunga.png"
+        alt="Surat Cinta"
+        class="w-[300px] animate-float"
+      />
+    </div>
+
+  </section>
+
+ <!-- Section Love Letter -->
+<section class="w-full">
+
+  <!-- BAGIAN ATAS (GRADIENT) -->
+  <div  id="next"
+    class="bg-gradient-to-br from-[#EDBAFF] to-[#D28DEB]
+           px-10 py-15">
+
+    <div class="flex flex-col md:flex-row items-center gap-10 max-w-5xl mx-auto">
+
+      <!-- Image -->
+      <img
+        src="imgs/buket bunga.png"
+        alt="Bunga"
+        class="w-52 "
+      />
+
+      <!-- Text -->
+      <div>
+        <h3 class="font-light text-6xl text-[#5A0F73] mb-4">
+          Hai
+        </h3>
+
+        <p class="font-soon text-[#5A0F73] text-lg leading-relaxed max-w-xl">
+          Aku tau, kamu kalau udah di titik ini pasti klik button “iya”.
+          Yakan? Aku tau kamu pasti bakal buka kalau ini dari orang seimut aku,
+          yagasi? awkwkwk
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BAGIAN BAWAH (POLOS) -->
+  <div class="bg-[#F8DDFF] px-10 py-20">
+
+    <div class="max-w-4xl mx-auto">
+      <p class="font-soon text-[#5A0F73] text-lg text-left">
+        Aku buat kaya gini itu bukan iseng, tapi sengaja…
+        Biar kamu makin suka sama orang imut kaya aku, heheheh
+      </p>
+
+      <h2 class="font-soon text-center font-bold text-4xl text-[#5A0F73] mt-10">
+        ENGGA YAA!
+      </h2>
+
+      <p class="font-soon text-[#5A0F73] text-right text-lg leading-relaxed mt-8">
+        Aku buat ini tuh khusus buat kamu, biar kamu selalu inget.
+        Kamu itu udah dicintai hebat sama aku, disayang banget sama aku.
+        Dibanggain banget sama aku. Ini juga aku buat atas dasar rasa cintaku
+        yang terus tumbuh seiring waktu berjalan bersamamu.
+        Ya, benar… bersamamu…
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- SECTION 3 -->
+<section class="w-full">
+
+  <!-- ATAS (GRADIENT) -->
+  <div
+    class="bg-gradient-to-br from-[#EDBAFF] via-[#F8DDFF] to-[#C77DFF]
+           px-10 py-20">
+
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
+
+      <!-- Text kiri -->
+      <div class="max-w-xl pl-24">
+        <h3 class="font-light text-6xl text-[#5A0F73] mb-4">
+          Kamu itu.....
+        </h3>
+
+        <p class="font-soon text-[#5A0F73] leading-relaxed">
+          KAMU TUUU SATU SATUNYA DIHATI AKUUU. Tenang,
+          kamu menang, kamu pemenang. Jadi cintaku terus yaa
+          sampai kapanpun itu. Ku pastikan kamu itu menang
+          dihatiku, tanpa saingan, tanpa ragu, dan hanya satu,
+          KAMU.
+        </p>
+      </div>
+
+      <!-- Gambar kanan -->
+      <div class="text-center pr-24">
+        <p class="font-quarrel text-[#5A0F73] mb-3 text-3xl">
+          I LOVE YOU
+        </p>
+
+        <img
+          src="imgs/sigma cat.jpeg"
+          alt="I Love You"
+          class="w-48  shadow-md mx-auto"
+        />
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BAWAH (POLOS) -->
+  <div class="bg-[#F8DDFF] px-10 py-20">
+
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-12 items-center">
+
+      <!-- Gambar kiri -->
+      <img
+        src="imgs/ketawa cat.jpeg"
+        alt="Lucu"
+        class="w-60 shadow-md"
+      />
+
+      <!-- Text kanan -->
+      <div>
+        <p class="font-loved text-3xl text-[#5A0F73] mb-6">
+          Banyak juga momen-momen lucu yang bisa dikenang,
+          contohnya...
+        </p>
+
+        <ul class="font-loved font-semibold text-xl text-[#5A0F73] space-y-2">
+          <li>"ENDI"</li>
+          <li>"Coklat Koin"</li>
+          <li>"Farit Mini"</li>
+          <li>"Leh ngehapus bareng"</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- SECTION 4 -->
+<section class="w-full bg-[#F8DDFF]">
+
+  <!-- STRIP ATAS -->
+
+    <!-- BACKGROUND FULL WIDTH -->
+<div class="bg-[#EDBAFF] py-5 mb-6">
+
+  <!-- KONTEN DIBATASI -->
+  <div class="max-w-4xl mx-auto text-center px-6">
+    <p class="font-comfort text-[#5A0F73]">
+      Dan yang pasti masih banyak lagi
+    </p>
+  </div>
+
+</div>
+
+      <img
+        src="imgs/Anime+Minecraft.jpeg"
+        alt="Terima Kasih"
+        class="w-60 mx-auto mb-8 rounded-md shadow-md"
+      />
+<div class="text-center mb-6">
+      <h3 class="font-soon text-3xl  text-[#5A0F73] mb-4">
+        Terima kasih
+      </h3>
+
+      <p class="font-soon text-center ml-44 mr-44 text-[#5A0F73] leading-relaxed">
+        Terima kasih sudah sabar. Terima kasih sudah bertahan.
+        Terima kasih sudah jadi rumah. Terimakasih udah mau nerima
+        aku di hidupmu. Terimakasih bisa terus sama aku.
+        Terimakasihku padamu, love you
+      </p>
+
+    </div>
+  </div>
+
+  <!-- STRIP BAWAH -->
+  <div class="bg-gradient-to-br from-[#EDBAFF] via-[#F8DDFF] to-[#C77DFF] py-15">
+
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10 px-6">
+
+      <!-- Image -->
+      <img
+        src="imgs/cat with flower.png"
+        alt="Maaf"
+        class="w-40"
+      />
+
+      <!-- Text -->
+      <div>
+        <h3 class="font-light text-4xl text-[#5A0F73] mb-4">
+          Dan Maaf...
+        </h3>
+
+        <p class="font-soon text-[#5A0F73] leading-relaxed">
+          Maaf kalau aku kadang berisik, suka ngatur, gajelas kadang
+          juga diam, nyebelin, aneh, mood swing parah, suka marah,
+          marah marah, nuduh gajelas, overthinking 24/7, ganggu kamu,
+          haus perhatian. Tapi dibalik itu, aku peduli. Aku cinta sama
+          kamu, aku sayang. Aku gamau kehilangan, aku gamau orang lain
+          aku mau kamu, selamanya.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- DAILY REMINDER -->
+<section class="w-full">
+
+  <!-- BAGIAN ATAS (TERANG) -->
+  <div class="bg-soft py-16">
+    <div class="max-w-4xl mx-auto text-center px-6">
+
+      <p class="font-quarrel text-dark mr-34 ml-34 md:text-5xl leading-relaxed mb-8">
+        And daily reminder, i loved you first, i love you a lot,
+        i love more, i love forever ever ever and ever
+      </p>
+
+      <a href="love_letter2.html">
+      <button
+        class="px-8 py-3 rounded-full
+               font-soon text-soft bg-dark/70
+               hover:bg-dark transition duration-300">
+        Click For Surprise
+      </button>
+    </a>
+
+    </div>
+  </div>
+
+  <!-- BAGIAN BAWAH (LEBIH GELAP) -->
+  <div class="bg-primary py-4">
+    <div class="max-w-4xl mx-auto px-6">
+      <p class="font-soon text-dark text-semibold italic text-right">
+        From your cute gf, Royhanah Khoirunnisa
+      </p>
+    </div>
+  </div>
+
+</section>
+</body>
+</html>
